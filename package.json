@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./tests/setup.js"
+    ],
+    "testTimeout": 30000
+  },
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js --ignore tests",
