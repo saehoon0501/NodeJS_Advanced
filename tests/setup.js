@@ -1,5 +1,6 @@
 require("../models/User");
 
+jest.useFakeTimers("legacy");
 jest.setTimeout(50000);
 
 const mongoose = require("mongoose");
