@@ -48,4 +48,4 @@ jobs:
           nohup npm run start &
           sleep 3
       - name: Run tests
-        run: npm run test --verbose --maxWorkers=2
+        run: npm run test
