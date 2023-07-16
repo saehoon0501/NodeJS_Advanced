@@ -15,7 +15,7 @@ class BlogShow extends Component {
             "https://my-bucket-byun.s3.ap-northeast-2.amazonaws.com/" +
             this.props.blog.imageUrl
           }
-          alt="Served Image"
+          alt="Uploaded file served by AWS S3"
         />
       );
     }
